@@ -1,0 +1,123 @@
+[
+   {
+       "_id": "642c155b2c4774f05c36eeaa",
+       "name": "Carpentry services",
+       "recipe":"Skilled carpenters adept at crafting, repairing, or enhancing various wooden structures within your home, ensuring precision and durability in every project.",
+       "image": "/images/carpenter.png",
+       "category": "salad",
+       "price": 14.7
+   },
+   {
+       "_id": "642c155b2c4774f05c36eeb9",
+       "name": "Plumbing services",
+       "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+       "image": "/images/plumber.png",
+       "category": "drinks",
+       "price": 14.7
+   },
+   {
+    "_id": "642c155b2c4774f05c36eeb9",
+    "name": "Washbasen fiitiing",
+    "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+    "image": "/images/Dplumb1.png",
+    "category": "drinks",
+    "price": 14.7
+},
+   {
+       "_id": "642c155b2c4774f05c36ee7c",
+       "name": "Paint services",
+       "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+       "image": "/images/paint.png",
+       "category": "popular",
+       "price": 14.5
+   },
+   {
+       "_id": "642c155b2c4774f05c36ee88",
+       "name": "Kitchen Cleaning",
+       "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+       "image": "/images/kitch.png",
+       "category": "dessert",
+       "price": 12.5
+   },
+   {
+       "_id": "642c155b2c4774f05c36ee7a",
+       "name": "Electrical Service",
+       "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+       "image": "/images/electrical.png",
+       "category": "popular",
+       "price": 14.5
+   },
+   {
+       "_id": "642c155b2c4774f05c36ee74",
+       "name": "Wiring Home",
+       "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+       "image": "/images/Dele2.png",
+       "category": "popular",
+       "price": 14.5
+   },
+   {
+       "_id": "642c155b2c4774f05c36ee712",
+       "name": "Interior Design",
+       "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+       "image": "/images/interrior.png",
+       "category": "popular",
+       "price": 14.5
+   },
+   {
+       "_id": "642c155b2c4774f05c36ee7x",
+       "name": "Home Cleaning",
+       "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+       "image": "/images/home.png",
+       "category": "popular",
+       "price": 14.5
+   },
+   {
+       "_id": "642c155b2c4774f05c36ee8c",
+       "name": "Water Purifiication",
+       "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+       "image": "/images/Dw1.png",
+       "category": "dessert",
+       "price": 12.5
+   },
+   {
+       "_id": "642c155b2c4774f05c36ee94",
+       "name": "",
+       "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+       "image": "/images/roof.png",
+       "category": "pizza",
+       "price": 12.5
+   },
+   {
+    "_id": "642c155b2c4774f05c36eeab",
+    "name": "Goats Cheese Pizza",
+    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "image": "/images/Di1.png",
+    "category": "salad",
+    "price": 14.5
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb1",
+    "name": "bed cutting service",
+    "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
+    "image": "/images/Dcarp2.png",
+    "category": "soup",
+    "price": 9.5
+  },
+  {
+    "_id": "642c155b2c4774f05c36eead",
+    "name": "Carpentry services",
+    "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "image": "/images/Dcarp1.png",
+    "category": "soup",
+    "price": 14.5
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeae",
+    "name": "wood cutting",
+    "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
+    "image": "/images/carpenter.png",
+    "category": "soup",
+    "price": 10.5
+  }
+  
+]
