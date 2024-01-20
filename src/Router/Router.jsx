@@ -4,7 +4,7 @@ import Home from "../Pages/Home/Home";
 import Menu from "../Pages/Shop/Menu";
 import Signup from "../components/Signup";
 import UpdateProfile from "../Pages/dashboard/UpdateProfile";
-import Offers from "../Pages/Shop/Offers";
+
 
 const router = createBrowserRouter([
   {
@@ -19,10 +19,7 @@ const router = createBrowserRouter([
         path: "/menu",
         element: <Menu/>,
       },
-      {
-        path:"/offers",
-        element:<Offers />
-      },
+      
       {
         path: "/update-profile",
         element: <UpdateProfile/>

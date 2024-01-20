@@ -1,10 +1,10 @@
 import React from 'react'
 
 const categoryItems = [
-    {id: 1, title: "Main Dish", despriction: "(86 dishes)", image: "/images/home/category/img1.png"},
-    {id: 2, title: "Break Fast", despriction: "(12 break fast)", image: "/images/home/category/img2.png"},
-    {id: 3, title: "Dessert", despriction: "(48 dessert)", image: "/images/home/category/img3.png"},
-    {id: 4, title: "Browse All", despriction: "(255 Items)", image: "/images/home/category/img4.png"}
+    {id: 1, title: "LAPTOPS", image: "../src/assets/cate1.jpeg"},
+    {id: 2, title: " MOBILE PHONE",image: "../src/assets/cate2.jpeg"},
+    {id: 3, title: "SHOES",  image: "../src/assets/cate3.jpeg"},
+    
 ]
 
 const Catagories = () => {
@@ -19,10 +19,10 @@ const Catagories = () => {
         <div className='flex flex-col sm:flex-row flex-wrap gap-8 justify-around items-center mt-12 '>
             {
                 categoryItems.map((item, i) => (
-                    <div key={i} className='shadow-lg rounded-md bg-white py-6 px-5 w-72 mx-auto text-center cursor-pointer hover:-translate-y-4 transition-all duration-300 z-10'>
-                        <div className='w-full mx-auto flex items-center justify-center'><img src={item.image} alt="" className='bg-[#C1F1C6] p-5 rounded-full w-28 h-28' /></div>
+                    <div key={i} className='shadow-lg-black rounded-md bg-white py-6 px-5 w-72 mx-auto text-center cursor-pointer hover:-translate-y-4 transition-all duration-300 z-10'>
+                        <div className='w-full mx-auto flex items-center justify-center'><img src={item.image} alt="" className='bg-[#ffffff] p- rounded-md h:2rem w:1.5' /></div>
                         <div className='mt-5 space-y-1'>
-                            <h5 className='text-[#1E1E1E] font-semibold'>{item.title}</h5>
+                            <h5 className='text-[#0a0a0a] font-smbold'>{item.title}</h5>
                             <p className='text-secondary text-sm'>{item.despriction}</p>
                         </div>
                     </div>

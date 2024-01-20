@@ -60,3 +60,53 @@ header, nav{
   text-underline-offset: 5px;
   color: #39DB4A;
 }
+
+
+#moving-text{
+  white-space: nowrap;
+  overflow: auto;
+}
+#moving-text::-webkit-scrollbar{
+  display: none;
+}
+#gola{
+  width: 30px;height: 30px;
+  border-radius: 50%;
+  background-color: #ed6e54;
+  display: inline-block;
+  margin: 0.7vw 2vw;
+}
+.con{
+  /* background-color: lightblue; */
+  white-space: nowrap;
+  display: inline-block;
+  /* saare ek childer ek line me aajyege matlab jo childer agli line mei aa rhe hote hai wo same line mei aayege */
+ 
+   animation-name: move;
+   animation-duration: 13s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+
+
+}
+#moving-text h1{
+  font-size: 4vw;
+  display: inline-block;
+
+}
+
+@keyframes move{
+  from{
+      transform: translateX(0);
+  }
+  to{
+      transform: translateX(-100%);
+  }
+}
+.line{
+  height: 1vh;
+  width: 100%;
+  border-top: 1px solid black;
+  margin-bottom: 2vw;
+
+}
