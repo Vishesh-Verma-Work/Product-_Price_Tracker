@@ -294,7 +294,7 @@
             "name": "Apple Watch Series 7",
             "description": "The latest from Apple, featuring a larger, always-on Retina display and advanced health and fitness tracking capabilities",
             "price": 35000.00,
-            "image": "url_to_image",
+            "image": "./src/assets/wa1.jpeg",
             "logo": "url_to_company_logo_apple",
             "category": "Smart Watch",
             "company": "Apple"

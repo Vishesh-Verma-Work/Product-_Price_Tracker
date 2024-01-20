@@ -9,13 +9,14 @@ import PopularBlog from './PopularBlog'
 function SingleBlog() {
     const {id}=useParams()
      const dispatch=useDispatch();
-     const {blog}=useSelector(state=>state.blog)
+     const {blog,isloading,iserror,error}=useSelector(state=>state.blog)
      useEffect(()=>{
          dispatch(fetchBlog(id))
+         window.scrollTo(0,0)
      },[dispatch,id])
      console.log(blog);
 
-     const {author,authorPic,categorytitle,image,title,published_date,content,reading_time,tags}=blog;
+     const { title, image, description, tags, category,price,logo,company }=blog || {};
   return (
     <article className="mt-8">
     <div className="mb-4 md:mb-0 w-full mx-auto relative">
@@ -27,7 +28,7 @@ function SingleBlog() {
           href="#"
           className="py-2 text-green-700 inline-flex items-center justify-center mb-2"
         >
-          Cryptocurrency
+          
         </a>
       </div>
 
@@ -42,36 +43,9 @@ function SingleBlog() {
     <div className="flex flex-col lg:flex-row lg:space-x-12">
       <div className="px-4 lg:px-0 mt-8 text-gray-700 text-lg leading-relaxed w-full lg:w-3/4">
         {/* ... Existing code ... */}
-        Boisterous he on understood attachment as entreaties ye devonshire. In
-        mile an form snug were been sell. Extremely ham any his departure for
-        contained curiosity defective. Way now instrument had eat diminution
-        melancholy expression sentiments stimulated.
+      {description}
         <br /> <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-          blanditiis tempora perferendis optio eveniet a fuga cum ipsam,
-          aperiam vitae quasi nisi corporis adipisci molestiae facere qui,
-          culpa distinctio quisquam voluptatum illum veniam, voluptate fugit
-          unde voluptas? Fugiat quidem maxime neque fugit ea! Rem soluta optio
-          eos vel? Perferendis maxime, iure molestias totam, autem voluptatum
-          nulla ad provident quam labore sint earum rem unde quis aspernatur
-          possimus pariatur assumenda magnam eligendi quos, consectetur facere
-          consequatur tempora aut. Architecto beatae unde repellat accusantium
-          velit optio earum pariatur porro. Impedit molestiae officia ex nemo
-          officiis aut, facilis, nesciunt recusandae repudiandae repellendus
-          corrupti sequi mollitia. Eaque corporis nisi repudiandae voluptas
-          eius soluta repellat consequatur praesentium vero, ad nulla, aliquid
-          vel illum sint facere quibusdam necessitatibus laudantium voluptate
-          architecto fuga omnis. Doloremque vero adipisci maiores,
-          consequuntur, eveniet dignissimos reiciendis ad totam nemo iste
-          tempora aliquam itaque quo beatae numquam doloribus recusandae iusto
-          modi perferendis ipsum a fugiat quam harum dicta. Et atque pariatur,
-          error quam fuga earum adipisci. Sequi quo voluptatem amet ullam
-          optio? Quam, dignissimos quidem? Culpa necessitatibus, hic a cumque,
-          molestias dicta nisi autem consequatur beatae tenetur laudantium
-          eveniet quas consequuntur, repudiandae incidunt atque amet assumenda
-          aut. Quae magnam tempore optio temporibus!
-        </p>
+      
       </div>
 
       <div className="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm">
