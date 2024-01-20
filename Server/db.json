@@ -600,6 +600,106 @@
             "logo": "url_to_company_logo_razer",
             "category": "laptop",
             "company": "Razer"
+        },
+        {
+            "id": 60,
+            "name": "Nike Air Max 270",
+            "description": "A classic in athletic footwear, the Air Max 270 combines style with Nike's signature Air cushioning for superior comfort.",
+            "price": 35000.00,
+            "image": "url_to_nike_air_max_270_image",
+            "logo": "url_to_nike_logo",
+            "category": "Shoes",
+            "company": "Nike"
+        },
+        {
+            "id": 61,
+            "name": "Adidas Ultraboost",
+            "description": "Known for its responsive cushioning and sleek design, the Ultraboost is a versatile running shoe for athletes and casual wearers alike.",
+            "price": 37000.00,
+            "image": "url_to_adidas_ultraboost_image",
+            "logo": "url_to_adidas_logo",
+            "category": "Shoes",
+            "company": "Adidas"
+        },
+        {
+            "id": 50,
+            "name": "New Balance Fresh Foam X",
+            "description": "With Fresh Foam X technology, these shoes deliver a plush and responsive ride, making them ideal for daily runs and workouts.",
+            "price": 39000.00,
+            "image": "url_to_new_balance_fresh_foam_x_image",
+            "logo": "url_to_new_balance_logo",
+            "category": "Shoes",
+            "company": "New Balance"
+        },
+        {
+            "id": 51,
+            "name": "Asics Gel-Kayano",
+            "description": "A stability shoe with Gel technology for excellent shock absorption, the Gel-Kayano is a favorite among long-distance runners.",
+            "price": 35000.00,
+            "image": "url_to_asics_gel_kayano_image",
+            "logo": "url_to_asics_logo",
+            "category": "Shoes",
+            "company": "Asics"
+        },
+        {
+            "id": 52,
+            "name": "Puma RS-X",
+            "description": "Puma's RS-X series combines retro aesthetics with modern comfort, making it a stylish choice for everyday wear.",
+            "price": 38000.00,
+            "image": "url_to_puma_rs_x_image",
+            "logo": "url_to_puma_logo",
+            "category": "Shoes",
+            "company": "Puma"
+        },
+        {
+            "id": 53,
+            "name": "Under Armour HOVR Phantom",
+            "description": "Featuring HOVR cushioning technology, these shoes provide a zero-gravity feel for a responsive and comfortable run.",
+            "price": 36000.00,
+            "image": "url_to_under_armour_hovr_phantom_image",
+            "logo": "url_to_under_armour_logo",
+            "category": "Shoes",
+            "company": "Under Armour"
+        },
+        {
+            "id": 54,
+            "name": "Reebok Nano X",
+            "description": "Built for CrossFit enthusiasts, the Nano X offers stability, durability, and versatility for various training activities.",
+            "price": 37000.00,
+            "image": "url_to_reebok_nano_x_image",
+            "logo": "url_to_reebok_logo",
+            "category": "Shoes",
+            "company": "Reebok"
+        },
+        {
+            "id": 55,
+            "name": "Salomon Speedcross 5",
+            "description": "Designed for trail running, the Speedcross 5 provides exceptional grip, stability, and protection on varied terrains.",
+            "price": 32000.00,
+            "image": "url_to_salomon_speedcross_5_image",
+            "logo": "url_to_salomon_logo",
+            "category": "Shoes",
+            "company": "Salomon"
+        },
+        {
+            "id": 56,
+            "name": "Brooks Ghost 14",
+            "description": "Known for its plush cushioning and smooth ride, the Ghost 14 is a reliable choice for neutral runners seeking comfort.",
+            "price": 34000.00,
+            "image": "url_to_brooks_ghost_14_image",
+            "logo": "url_to_brooks_logo",
+            "category": "Shoes",
+            "company": "Brooks"
+        },
+        {
+            "id": 57,
+            "name": "Saucony Kinvara 12",
+            "description": "Lightweight and responsive, the Kinvara 12 is a versatile running shoe that delivers a natural feel and optimal performance.",
+            "price": 38000.00,
+            "image": "url_to_saucony_kinvara_12_image",
+            "logo": "url_to_saucony_logo",
+            "category": "Shoes",
+            "company": "Saucony"
         }
         
     ],
