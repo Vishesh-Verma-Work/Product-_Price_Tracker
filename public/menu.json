@@ -259,6 +259,36 @@
         "logo": "url_to_company_logo_vivo",
         "category": "popular",
         "company": "Vivo"
+    },
+    {
+        "id": 7,
+        "name": "MacBook Air M2",
+        "description": "Next-gen MacBook Air with Apple M2 chip. 13.3-inch Retina display, 16-core GPU, 16GB RAM, 1TB SSD storage. Experience advanced performance and stunning visuals with the MacBook Air M2.",
+        "price": 37000.00,
+        "image": "./src/assets/lp1.jpeg",
+        "logo": "url_to_company_logo_apple",
+        "category": "popular",
+        "company": "Apple"
+    },
+    {
+        "id": 50,
+        "name": "Nike AIR",
+        "description": "Nike Air shoes: A fusion of cutting-edge technology and iconic design, offering unparalleled comfort and style for sports performance and casual wear.",
+        "price": 37000.00,
+        "image": "./src/assets/sh1.jpeg",
+        "logo": "url_to_company_logo_apple",
+        "category": "popular",
+        "company": "nike"
+    },
+    {
+        "id": 100,
+        "name": "H&M JACKET ",
+        "description": "H&M jacket: Fashion-forward outerwear blending style and affordability for a chic and versatile wardrobe staple.",
+        "image": "./src/assets/sh1.jpeg",
+        "logo": "url_to_company_logo_apple",
+        "category": "popular",
+        "company": "nike"
     }
+
 ]
 

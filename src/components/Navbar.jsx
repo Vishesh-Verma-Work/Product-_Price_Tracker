@@ -31,36 +31,37 @@ const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a className="text-green" href="/">Home</a>
-      </li>
+        <a className="text-orange-400" href="/">Home</a>
+      </li>8
       <li tabIndex={0}>
         <details>
-          <summary>Services</summary>
+          <summary>Electronics</summary>
           <ul className="p-2">
-            <li>
+          <li>
               <a href="/menu">All</a>
             </li>
             <li>
-              <a href="/menu">Carpnetry Services</a>
+              <a href="/menu">Mobile Phone</a>
             </li>
             <li>
-            <a href="/menu">Plumbing Services</a>
+              <a href="/menu"> Laptop</a>
             </li>
             <li>
-            <a href="/menu">Roofing Services</a>
+            <a href="/menu">I PAD</a>
             </li>
             <li>
-            <a href="/menu">Electrical Services</a>
+            <a href="/menu">Headphones</a>
             </li>
             <li>
-            <a href="/menu">Paint Services</a>
+            <a href="/menu">Smart Watches</a>
             </li>
+            
           </ul>
         </details>
       </li>
       <li tabIndex={0}>
         
-          <summary> Add Services</summary>
+          <summary> Deals </summary>
           
         
       </li>
@@ -106,7 +107,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="/" className="font-bold">
-        <p>Doorstep Ease Service</p>
+        <p>JJ</p>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -156,7 +157,7 @@ const Navbar = () => {
          {
           user? <Profile user={user}/> :  <button
           onClick={() => document.getElementById("my_modal_5").showModal()}
-          className="btn flex items-center gap-2 rounded-full px-6 bg-green text-white"
+          className="btn flex items-center gap-2 rounded-full px-6 bg-orange-400 text-white"
         >
           <FaRegUser /> Login
         </button>

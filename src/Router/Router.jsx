@@ -6,6 +6,7 @@ import Signup from "../components/Signup";
 import UpdateProfile from "../Pages/dashboard/UpdateProfile";
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
         element: <Menu/>,
       },
       
+      
       {
         path: "/update-profile",
         element: <UpdateProfile/>
@@ -29,7 +31,9 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <Signup/>
-  }
+  },
+
+ ,
 ]);
 
 export default router;
