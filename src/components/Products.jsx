@@ -1,13 +1,13 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import image111 from '/src/assets/la8.jpeg'
 const ProductPage = () => {
   return (
     <div className="flex p-8 bg-white">
       {/* Left Side - Product Image */}
       <div className="w-1/2">
         <img
-          src='https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-mbp14-space-m1-2021_GEO_CH?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1638575280000'
-          alt="Product Image"
+          src={image111}
           className="w-full h-full object-cover shadow-lg rounded"
         />
       </div>
@@ -50,8 +50,10 @@ const ProductPage = () => {
           {/* Table Body - Sample Prices and Buttons */}
           <div className="flex items-center justify-between">
             <div className="w-1/3 text-center text-orange-500 border-r border-black-700 pr-4">
-              <strong>1,55,555</strong> <br />
-              <button className="bg-orange-500 text-white px-4 py-2 mt-2 rounded">Go to Site 1</button>
+              <strong>1,11,555</strong> <br />
+           <Link to ="https://www.amazon.in/s?k=microsoft+surface+pro+9&ref=nb_sb_ss_ts-doa-p_6_9"></Link>   <button className="bg-orange-500 text-white px-4 py-2 mt-2 rounded">Go to Site 1</button>
+<Link to="/email"><button className="bg-white-500 text-orange px-4 py-2 mt-2 rounded">Notify Me </button></Link> 
+        
             </div>
             <div className="w-1/3 text-center text-orange-500 border-r border-black-700 pr-4">
               <strong>72999.99</strong> <br />

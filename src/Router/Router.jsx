@@ -5,6 +5,7 @@ import Menu from "../Pages/Shop/Menu";
 import Signup from "../components/Signup";
 import UpdateProfile from "../Pages/dashboard/UpdateProfile";
 import ProductPage from "../components/Products";
+import Email from "../components/Email";
 
 
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       },{
         path:"/products/ywet6732878sgv",
         element:<ProductPage />
+      },
+      {
+        path:"/email",
+        element:<Email />
       }
     ],
   },
