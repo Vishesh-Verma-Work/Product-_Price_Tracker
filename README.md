@@ -1,8 +1,3 @@
-# React + Vite
+# Product Price Comparer and Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Product Price Comparer and Tracker is an innovative platform designed to simplify online shopping by providing a comprehensive comparison of product prices across major e-commerce sites such as Amazon, Flipkart, and Meesho. Users can effortlessly search for a specific product, compare its prices on different platforms, and make informed purchase decisions. The platform goes beyond basic comparison by offering advanced features, including the ability to add products to a personalized cart and set desired price alerts. Once a user sets a preferred price for a product, the system continuously monitors the prices, and if the product's price drops to the user's specified amount, an automatic email alert is triggered, notifying the user of the exciting price reduction. With its user-friendly interface and advanced functionalities, Product Price Comparer and Tracker redefine the online shopping experience, ensuring users always get the best deals.
